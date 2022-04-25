@@ -13,7 +13,7 @@ import router from './router'
 
 const app = createApp(App)
 
-if (import.meta.env.PRO) {
+if (!import.meta.env.DEV) {
   app.use(VueGtag, {
     config: {
       id: 'G-B8WV9CVYZW'
