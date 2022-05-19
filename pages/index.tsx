@@ -1,5 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Script from 'next/script'
+
 import { yearsSinceDate } from '../utils/date'
 
 import {
@@ -57,6 +59,19 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-B8WV9CVYZW"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-B8WV9CVYZW');
+        `}
+      </Script>
     </>
   )
 }
