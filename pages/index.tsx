@@ -22,6 +22,7 @@ const Home: NextPage = () => {
     flag: '🇧🇷',
     currentJob: {
       name: 'ProjectMark',
+      flag: '🇺🇸',
       url: 'https://projectmark.com',
       role: 'Frontend Engineer',
     },
@@ -36,7 +37,7 @@ const Home: NextPage = () => {
         <div className="flex flex-col space-y-3">
           <h1 className="text-5xl">Hi there, I&apos;m <span className="text-animated from-indigo-500 via-pink-500 to-indigo-500 font-medium">{ about.name }</span> 👋🏻!</h1>
           <h2 className="text-3xl">A { about.role } from <span className="text-animated from-lime-500 via-yellow-500 to-lime-500">{ about.from }</span> { about.flag } with { about.since } years of experience</h2>
-          <p className="text-2xl">Currently working at <a href="about.currentJob.url" target="_blank" rel="noopener noreferrer"><span className="text-animated from-blue-700 via-cyan-500 to-blue-700">{ about.currentJob.name }</span></a> as { about.currentJob.role }</p>
+          <p className="text-2xl">Currently working at <a href="about.currentJob.url" target="_blank" rel="noopener noreferrer"><span className="text-animated from-blue-700 via-cyan-500 to-blue-700">{ about.currentJob.name }</span></a> { about.currentJob.flag } as { about.currentJob.role }</p>
           <div className="flex space-x-6 pt-2 text-2xl">
             <a href="mailto:devguih@gmail.com" target="_blank" rel="noopener noreferrer" title="Send an email">
               <BsEnvelope />
