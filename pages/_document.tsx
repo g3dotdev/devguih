@@ -5,6 +5,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <meta name="robots" content="all" />
           <meta name="description" content="Personal website and portfolio" />
           <link rel="icon" href="/favicon.ico" />
           <link

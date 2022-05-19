@@ -32,6 +32,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Guilherme Souza</title>
+        <link rel="canonical" href="https://devguih.com" />
       </Head>
       <div className="grid min-h-screen place-items-center p-6">
         <div className="flex flex-col space-y-3">
