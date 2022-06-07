@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gradient-to-br from-neutral-50 to-neutral-200 text-neutral-900;
-  @apply dark:bg-gradient-to-br dark:from-neutral-900 dark:to-neutral-800 dark:text-neutral-200;
+  @apply bg-gradient-to-br from-zinc-50 to-zinc-200 text-zinc-900;
+  @apply dark:bg-gradient-to-br dark:from-zinc-900 dark:to-zinc-800 dark:text-zinc-200;
 }
 
 .text-animated {
