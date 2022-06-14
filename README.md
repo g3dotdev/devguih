@@ -27,4 +27,4 @@ I'm a Software Engineer from Brazil 🇧🇷 with 7 years of experience<br/> wor
 
 ### Github Stats
 
-[![Guilherme's Github Stats](https://github-readme-stats.vercel.app/api?username=devguih&count_private=true&theme=github_dark&show_icons=true&hide_border=true)](https://github.com/devguih)
+[![Guilherme's Github Stats](https://github-readme-stats.vercel.app/api?username=devguih&count_private=true&theme=github_dark&show_icons=true&border_color=30363d)](https://github.com/devguih)
