@@ -1,12 +1,55 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+html,
 body {
-  @apply bg-gradient-to-br from-zinc-50 to-zinc-200 text-zinc-900;
-  @apply dark:bg-gradient-to-br dark:from-zinc-900 dark:to-zinc-800 dark:text-zinc-200;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.text-animated {
-  @apply bg-gradient-to-r animate-move-bg bg-[length:400%] bg-clip-text text-transparent;
+:root {
+  --text-dark: #8f9ba8;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: var(--text-dark);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  color: white;
+  background: black;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+
+  :root {
+    --text-dark: #8f9ba8;
+  }
+
+  ::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: white;
+  }
+  
+  ::selection {
+    color: black;
+    background: white;
+  }
 }
