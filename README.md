@@ -1,6 +1,6 @@
 ## Hi there, I'm Guilherme Souza!
 
-Currently working as a Software Engineer at [ProjectMark](https://projectmark.com/)
+Currently working as a Software Engineer at [MintList]([https://projectmark.com/](https://mintlist.com/))
 
 From Joinville, Brazil 🇧🇷
 
